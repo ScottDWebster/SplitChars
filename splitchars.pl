@@ -22,9 +22,5 @@ use strict;
 use warnings;
 use utf8;
 
-my($line);
-
 while(<>)
-{
-	print join(',', split('',$_));
-}
+{ print join(',', split('',$_)); }
